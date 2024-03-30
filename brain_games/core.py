@@ -13,10 +13,10 @@ def core_games(rules, generate_QA):
         result = generated_QA[1]
 
         print(f"Question: {question}")
-        answer = prompt.string('Your answer: ')
+        answ = prompt.string('Your answer: ')
 
-        if result != answer:
-            print(f"'{answer}' is wrong answer ;(. Correct answer was '{result}'")
+        if result != answ:
+            print(f"'{answ}' is wrong answer ;(. Correct answer was '{result}'")
             print(f"Let's try again, {name}!")
             break
         print("Correct!")
