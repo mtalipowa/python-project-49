@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "hexlet-code"
 version = "0.1.0"
-description = ""
+description = "Приложение содержит 5 игр, в каждой игре требуется, чтобы пользователь ответил 3 раза правильно, при неправильном ответе игра прекращается"
 authors = ["Milana Talipova"]
 readme = "README.md"
 packages = [

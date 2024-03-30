@@ -16,6 +16,6 @@ def main():
     symbol = random.choice(symbols)
     first_number = randint(1, 15)
     second_number = randint(1, 15)
-    question = str(first_number) + symbol + str(second_number)
+    question = f"{first_number} {symbol} {second_number}"
     result = calculation(symbol, first_number, second_number)
     return [question, str(result)]
